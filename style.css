@@ -1,28 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
- }
-body{
+}
+body {
   font-family: Segoe UI;
 }
-#main{
+#main {
   font-size: 2rem;
-  border: 2px solid black;
   width: 85%;
   margin: 25% 0 0 6%;
   border-radius: 10px;
 }
-#top{
-  background-color: #C3F8FF;
+#top {
+  background-color: #c3f8ff;
   height: 80px;
   border-radius: 10px;
 }
-#display{
+#display {
   font-size: 3rem;
   margin: 0.7rem;
   float: right;
 }
-#buttons{
+#buttons {
   background-color: lightcyan;
   border-radius: 10px;
   padding: 10px 20px 10px 10px;
@@ -30,30 +29,34 @@ body{
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
-button{
+button {
   height: 40px;
   width: 50px;
   margin: 10px 10px;
   font-size: 1.3rem;
-  border: 2px solid #C3F8FF;
+  border: 2px solid #c3f8ff;
   border-radius: 10px;
   background-color: lightcyan;
 }
-.button:hover, .operator:hover, #equal:hover{
+.button:hover,
+.operator:hover,
+#equal:hover {
   background-color: cyan;
 }
-#equal{
+#equal {
   width: 85%;
   grid-row-start: 5;
   grid-row-end: 6;
-  grid-column-start: 3; 
+  grid-column-start: 3;
   grid-column-end: 5;
 }
-.bottom{
+.bottom {
   position: absolute;
   bottom: 1rem;
-  margin: 2rem 0 0 5rem;
+  margin: 2rem 0 0 5.5rem;
+  color: black;
+  font-size: 1rem;
 }
-.bottom a{
+.bottom a {
   color: black;
 }
