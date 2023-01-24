@@ -60,3 +60,31 @@ button {
 .bottom a {
   color: black;
 }
+@media (min-width: 768px) {
+  #main {
+    width: 80%;
+    margin-left: 5.5rem;
+  }
+  #top {
+    height: 120px;
+  }
+  #display {
+    font-size: 5rem;
+    padding-right: 1rem;
+  }
+  #buttons {
+    padding: 2rem 0 4rem 1rem;
+  }
+  button {
+    font-size: 4rem;
+    height: 100px;
+    width: 150px;
+  }
+  .bottom {
+    position: relative;
+    top: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+  }
+}
